@@ -3,9 +3,10 @@ body{
     flex-direction: column;
     gap: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5vw;
+    font-size: 3.5vw;
     color: deeppink;
-    background-color: lightpink;
+    background-color: rgb(255, 218, 223);
+    background-image: url(../images/icecream.webp);
 }
 body{
     text-align: center;
@@ -13,17 +14,18 @@ body{
 button {
     display: block;
     margin: auto;
-    border-radius: 3rem;
+    border-radius: 5rem;
     padding: 0.5rem 2rem;
     color: coral;
     background-color: lavender;
+    border-color: fuchsia;
 }
 .totals,
 .toppings{
     margin: auto;
 }
 .toppings{
-    background-color: whitesmoke;
+    background-color: rgb(253, 181, 154);
 }
 th, .toppings>* {
     text-align: left;
@@ -35,7 +37,7 @@ th, .toppings>* {
     text-align: right;
 }
 .toppings table{
-    border: 1px solid fuchsia;
+    border: 6px dotted rgb(255, 175, 151);
     background-color: lavender;
 }
 *{
@@ -44,4 +46,10 @@ th, .toppings>* {
 }
 .hidden{
     opacity: 0;
+}
+.totals{
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(13px);
+    border: 6px dotted white;
 }
