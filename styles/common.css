@@ -2,6 +2,10 @@ body{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vw;
+    color: deeppink;
+    background-color: lightpink;
 }
 body{
     text-align: center;
@@ -11,10 +15,15 @@ button {
     margin: auto;
     border-radius: 3rem;
     padding: 0.5rem 2rem;
+    color: coral;
+    background-color: lavender;
 }
 .totals,
 .toppings{
     margin: auto;
+}
+.toppings{
+    background-color: whitesmoke;
 }
 th, .toppings>* {
     text-align: left;
@@ -26,5 +35,13 @@ th, .toppings>* {
     text-align: right;
 }
 .toppings table{
-    border: 1px solid black;
+    border: 1px solid fuchsia;
+    background-color: lavender;
+}
+*{
+    opacity: 1;
+    transition: opacity ease-in-out 1s;
+}
+.hidden{
+    opacity: 0;
 }
