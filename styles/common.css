@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+body{
+    text-align: center;
+}
+button {
+    display: block;
+    margin: auto;
+    border-radius: 3rem;
+    padding: 0.5rem 2rem;
+}
+.totals,
+.toppings{
+    margin: auto;
+}
+th, .toppings>* {
+    text-align: left;
+}
+.toppings > *{
+    text-align: left;
+}
+.totals td{
+    text-align: right;
+}
+.toppings table{
+    border: 1px solid black;
+}
